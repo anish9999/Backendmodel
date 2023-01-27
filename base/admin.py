@@ -1,5 +1,5 @@
 from django.contrib import admin
-from api.models import BusStopLoc
+from base.models import BusStopLoc
 
 
 class UserAdmin(admin.ModelAdmin):

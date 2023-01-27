@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from api.models import BusStopLoc
+from base.models import BusStopLoc
 
 #create serializers here
 class BSLSerializer(serializers.HyperlinkedModelSerializer):
