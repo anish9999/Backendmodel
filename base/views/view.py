@@ -8,8 +8,7 @@ def getRoutes(request):
       'Endpoint': 'api/',
       'method': 'GET',
       'body': None,
-      'description': 'Returns an urls to busstop location'
-          
+      'description': 'Returns an urls to busstop location'   
     },
     {
       'Endpoint': 'api/busroutes/',
@@ -37,6 +36,12 @@ def getRoutes(request):
       'Endpoint': 'api/busroutes/id/delete',
       'method': 'DELETE',
       'description': 'Deletes an existing location'
+    },
+    
+    {
+      'Endpoint': 'api/busroutes/bus/peoplecount',
+      'method': 'GET',
+      'description': 'Gets human count in the bus'
     },
   ]
   return Response(routes)
