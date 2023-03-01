@@ -22,26 +22,38 @@ def getRoutes(request):
       'body': None,
       'description': 'Returns a single location object'
     },
+        
     {
-      'Endpoint': 'api/busroutes/create',
-      'method': 'POST',           
-      'description': 'Creates a new location with data sent in post request'
-    },
-    {
-      'Endpoint': 'api/busroutes/id/update',
-      'method': 'PUT',
-      'description': 'Updates an existing location with data sent in the request'
-    },
-    {
-      'Endpoint': 'api/busroutes/id/delete',
-      'method': 'DELETE',
-      'description': 'Deletes an existing location'
+      'Endpoint': 'bus_id/people_count',
+      'method': 'GET',
+      'body': None,
+      'description': 'Gets human count in the bus'
     },
     
     {
-      'Endpoint': 'api/busroutes/bus/peoplecount',
+      'Endpoint': 'bus_id/people_count/by-bus-id/<bus_id>',
       'method': 'GET',
+      'body': None,
       'description': 'Gets human count in the bus'
     },
+    {
+      'Endpoint': 'api/busroutes/',
+      'method': 'POST', 
+      'body': None,          
+      'description': 'Creates a new location with data sent in post request'
+    },
+    {
+      'Endpoint': 'api/busroutes/id/',
+      'method': 'PUT',
+      'body': None,
+      'description': 'Updates an existing location with data sent in the request'
+    },
+    {
+      'Endpoint': 'api/busroutes/id/',
+      'method': 'DELETE',
+      'body': None,
+      'description': 'Deletes an existing location'
+    },
+
   ]
   return Response(routes)

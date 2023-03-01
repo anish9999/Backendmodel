@@ -7,6 +7,7 @@ from base.views.routeviews import BSLViewSet
 router = routers.DefaultRouter()
 router.register(r'busroutes', BSLViewSet)
 
+
 urlpatterns = [
     path('',include(router.urls))
 ]
