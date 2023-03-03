@@ -7,4 +7,4 @@ This api helps to send the information of various bus stop locations to the appl
 
 # Connecting ML to Django api
 https://medium.com/saarthi-ai/deploying-a-machine-learning-model-using-django-part-1-6c7de05c8d7
-a
+
