@@ -3,8 +3,7 @@ This api helps to send the information of various bus stop locations to the appl
 
 **_[Connecting Django with MYSQL Database](https://studygyaan.com/django/how-to-use-mysql-database-with-django-project)_**
 
-<image src="https://user-images.githubusercontent.com/85349550/222978446-4c21e176-14dd-443d-a2b2-d25db0bf8a5e.png">
+<image align="right" src="https://user-images.githubusercontent.com/85349550/222978726-b2b182e0-f380-4fae-9cc7-f7f4052cfad3.svg" width ="400" height = "150"/>
 
 # Connecting ML to Django api
 https://medium.com/saarthi-ai/deploying-a-machine-learning-model-using-django-part-1-6c7de05c8d7
-
